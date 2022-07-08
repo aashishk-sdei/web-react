@@ -1,0 +1,32 @@
+.dot-seprator {
+    @apply relative pl-2;
+  }
+  
+  .dot-seprator:before {
+    @apply absolute left-0 text-gray-5 rounded-full;
+    content: "•";
+    height: 3px;
+    top: -1px;
+  }
+
+  .reported-media {
+    min-width: 160px;
+    max-width: 160px;
+  }
+  .flag-reason-info {
+    max-width: 350px;
+  }
+  
+  .reported-info .btn-delete .btn {
+@apply p-0 w-10 h-10
+  }
+  .reported-info .btn-delete div {
+    @apply p-0 w-10 h-10 items-center justify-center
+  }
+  .reported-info .btn-delete div.ml-2.ml-swapper{
+    @apply hidden
+  }
+
+  .flag-reason-info .btn .icon-large svg {
+    @apply w-4
+  }

@@ -1,0 +1,138 @@
+.pubCount:after {
+    content: "\2022";
+    @apply absolute text-gray-6 text-sm right-0;
+}
+
+.PubBreadcrumb span + span {
+    @apply pl-4 ml-3 relative;
+}
+.PubBreadcrumb span + span:before {
+    content: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNyIgaGVpZ2h0PSIxMyIgdmlld0JveD0iMCAwIDcgMTMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xIDEuNUw1Ljc2NDQ0IDYuMjY0NDRDNS43OTU0MSA2LjI5NTM2IDUuODE5OTcgNi4zMzIwOCA1LjgzNjczIDYuMzcyNUM1Ljg1MzQ5IDYuNDEyOTIgNS44NjIxMSA2LjQ1NjI0IDUuODYyMTEgNi41QzUuODYyMTEgNi41NDM3NiA1Ljg1MzQ5IDYuNTg3MDggNS44MzY3MyA2LjYyNzVDNS44MTk5NyA2LjY2NzkyIDUuNzk1NDEgNi43MDQ2NCA1Ljc2NDQ0IDYuNzM1NTZMMSAxMS41IiBzdHJva2U9IiM3NDc1NzgiIHN0cm9rZS13aWR0aD0iMS4yNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=);
+}
+.PubBreadcrumb span:before {
+    @apply absolute left-0 top-1 leading-3;
+}
+.dotIco:before{
+    @apply top-1.5 !important;
+}
+.publist .story-card {
+    @apply p-3 mb-5 border border-transparent;
+}
+
+    .publist .story-card:hover {
+        @apply border-gray-3;
+    }
+
+.publist .MuiSkeleton-root {
+    @apply m-0 w-full !important;
+}
+
+.CountrySidebar .MuiSkeleton-root {
+    @apply m-0 w-full h-4 !important;
+}
+
+.PubCalendar .MuiSkeleton-root {
+    @apply ml-0 mt-3 w-full !important;
+}
+.publist img {
+    @apply w-full;
+}
+
+.publist .loader-grid-3 {
+    @apply hidden;
+}
+
+.SearchTitle .MuiSkeleton-root {
+    @apply inline-flex items-center ml-0;
+}
+
+.pubNumber .MuiSkeleton-root {
+    @apply mr-1;
+}
+
+@media(min-width: 768px) {
+    .CountrySidebar .active-tab {
+        background-color: #ffe5e5;
+    }
+    .CountrySidebar .active-tab span{
+        @apply text-redShades-6;
+   }
+        .CountrySidebar .active-tab svg path {
+            stroke: #9C2222;
+        }
+}
+
+@media(max-width: 767px) {
+    .main-wrapper {
+        @apply p-0 !important;
+    }
+
+    .CountrySidebar a, .CountrySidebar .tw-list-item {
+        @apply py-4 rounded-none pr-10 relative;
+    }
+
+    .CountrySidebar .active-tab {
+        @apply pl-10;
+    }
+
+    .CountrySidebar a.tw-list-item:after{
+        content: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNyIgaGVpZ2h0PSIxMyIgdmlld0JveD0iMCAwIDcgMTMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xIDEuNUw1Ljc2NDQ0IDYuMjY0NDRDNS43OTU0MSA2LjI5NTM2IDUuODE5OTcgNi4zMzIwOCA1LjgzNjczIDYuMzcyNUM1Ljg1MzQ5IDYuNDEyOTIgNS44NjIxMSA2LjQ1NjI0IDUuODYyMTEgNi41QzUuODYyMTEgNi41NDM3NiA1Ljg1MzQ5IDYuNTg3MDggNS44MzY3MyA2LjYyNzVDNS44MTk5NyA2LjY2NzkyIDUuNzk1NDEgNi43MDQ2NCA1Ljc2NDQ0IDYuNzM1NTZMMSAxMS41IiBzdHJva2U9IiM3NDc1NzgiIHN0cm9rZS13aWR0aD0iMS4yNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=);
+        @apply absolute right-5;
+    }
+
+    .CountrySidebar .countryTitle:after, .CountrySidebar .countryTitle {
+        @apply hidden;
+    }
+
+    .CountrySidebar .active-tab.countryTitle {
+        @apply flex pl-6;
+    }
+
+    .LinkIco {
+        @apply absolute left-3;
+    }
+    
+    .LinkIco svg{
+        @apply h-2  w-3 transform rotate-90;
+    }
+
+    .countryTitle .LinkIco {
+           @apply hidden;
+    }
+
+    .CountrySidebar .active-tab.countryTitle span, .CountrySidebar .active-tab span {
+        @apply text-base;
+    }
+
+    .CountrySidebar .countryTitle + a + a, .CountrySidebar .countryTitle + a {
+        @apply hidden;
+    }
+}
+
+@media(min-width: 674px) {
+    .SpecialCountry {
+        @apply grid-cols-5;
+    }
+}
+
+@media(max-width: 673px) {
+    .SpecialCountry {
+        @apply grid-cols-4;
+    }
+}
+
+@media(max-width: 505px) {
+    .SpecialCountry {
+        @apply grid-cols-3;
+    }
+}
+
+@media(max-width: 385px) {
+    .SpecialCountry {
+        @apply grid-cols-2;
+    }
+
+        .SpecialCountry .scItem {
+            @apply mb-3;
+        }
+}

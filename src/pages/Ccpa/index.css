@@ -1,0 +1,5 @@
+.ccpa-input:focus-visible {
+    outline: none;
+    outline: 2px solid #295da1;
+    border: none;
+}

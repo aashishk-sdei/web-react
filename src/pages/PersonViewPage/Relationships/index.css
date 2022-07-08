@@ -1,0 +1,10 @@
+﻿.active-tab {
+    background-color: #ffecec;
+    @apply text-redShades-5;
+}
+.tw-list-item.active-tab svg path {
+    stroke: #C92121 !important;
+}
+.Relationperson:hover h2{
+    @apply text-blue-4 underline ;
+}

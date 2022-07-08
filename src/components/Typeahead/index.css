@@ -1,0 +1,10 @@
+.dot-seprator {
+  @apply relative pl-2;
+}
+
+.dot-seprator:before {
+  @apply absolute left-0 text-gray-5 rounded-full;
+  content: "•";
+  height: 3px;
+  top: -1px;
+}

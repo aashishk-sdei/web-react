@@ -1,0 +1,19 @@
+.popper-nav {
+  flex-wrap: wrap;
+  min-width: 185px;
+}
+
+.popper-nav a {
+  @apply text-gray-5;
+  margin-left: 1.3em;
+  line-height: 1.8em;
+}
+
+.popper-content {
+  margin-left: 16.5px;
+}
+
+.popper-avatar {
+  max-width: 185px;
+  min-width: 90px;
+}

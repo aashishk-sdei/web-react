@@ -1,0 +1,72 @@
+.explore-overlay {
+  @apply absolute w-full h-full inset-0 cursor-pointer z-10;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+}
+
+.browse-topic img{
+  @apply h-28;
+}
+
+.browse-overlay {
+  @apply absolute w-full h-full inset-0 cursor-pointer z-10 bg-black opacity-50;
+}
+
+.browse-center {
+  @apply absolute left-1/2 top-1/2 text-center transform  -translate-y-2/4 -translate-x-2/4;
+}
+
+/*  swiper */
+.swiper {
+  @apply w-full h-full;
+}
+
+.swiper-slide {
+  @apply w-full flex justify-center items-center text-center text-lg bg-white;
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after, .swiper-button-next, .swiper-rtl .swiper-button-prev {
+  @apply text-white !important;
+} 
+
+.explore-sidebar {
+  @apply h-full border-r border-solid border-gray-3;
+}
+.explore-search input::placeholder {
+  @apply text-gray-5 !important;
+}
+.explore-search .MuiOutlinedInput-input {
+  @apply text-base pl-10 !important;
+}
+
+.explore-main {
+  @apply h-full border-b border-solid border-gray-3; 
+}
+
+.featured-topic p, .featured-topic h4 {
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+}
+.topicicon-left {
+  transform: rotate(-90deg);
+}
+.explore-browsetopic {
+  @apply py-4 px-8;
+}
+
+.topic-wrapper.main-wrapper {
+  @apply p-0 !important;
+}
+
+@media (max-width:767px) {
+  .explore-wrapper {
+    @apply px-0 !important;
+  }
+  .featured-topic img {
+    width: 26rem !important;
+  }
+}
+
+@media (max-width:1024px) {
+  .featured-topic img {
+    @apply w-96 h-52;
+  }
+}

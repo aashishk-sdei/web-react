@@ -1,0 +1,37 @@
+.user-follow-dd {
+  @apply p-4 rounded-md;
+  min-width: 400px;
+  box-shadow: 0px 6px 36px -6px rgba(0, 0, 0, 0.15);
+}
+
+.user-follow-dd .follow-btn-wrap .btn.btn-default {
+  min-width: 108px;
+}
+
+.user-follow-dd .follow-btn-wrap .btn.btn-default div {
+  @apply w-full;
+}
+
+.user-follow-dd .follow-btn-wrap .btn.btn-default.unfollow-user {
+  @apply text-maroon-5 !important;
+}
+
+.avtar-group:hover .avtar-square-medium-name .main-title.main-title-living,
+.avtar-group:hover .avtar-square-medium-name .main-title.main-title-living span {
+  @apply text-gray-7 no-underline !important;
+}
+
+.main-title .view-hoverink {
+  @apply hover:text-blue-4 !important;
+}
+
+.drawer-comments .icon-btn .btn {
+@apply w-10 h-10 p-0 justify-center
+}
+.drawer-comments .icon-btn  .ml-2.typo-font-light {
+  @apply hidden
+}
+
+.rail-comments-loader .MuiSkeleton-wave {
+  @apply ml-0 !important
+}

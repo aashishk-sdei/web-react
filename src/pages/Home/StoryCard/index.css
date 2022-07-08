@@ -1,0 +1,49 @@
+.shareModal {
+    max-width: 480px;
+}
+.shareModal .ctw-modal-body {
+    @apply pt-0 !important
+}
+.shareModal .story-media {
+    min-width: 5rem;
+}
+.shareModal .share-modal-footer  button,
+.shareModal .share-modal-footer button>div.flex  {
+    @apply w-full
+}
+
+.shareModal .sth-image img {
+    @apply z-10;
+  }
+
+.share-media-bg {    
+    filter: blur(4px);
+    opacity: 0.05;
+}
+
+.dot-seprator {
+    @apply relative pl-2;
+  }
+  
+  .dot-seprator:before {
+    @apply absolute left-0 text-gray-5 rounded-full;
+    content: "•";
+    height: 3px;
+    top: -1px;
+  }
+  .error-message {
+    color: red;
+  }
+  .input-text {
+    @apply h-10 border border-gray-3 focus:ring-2 focus:ring-blue-4 outline-none rounded-lg px-4 py-2 
+    placeholder-gray-4 !important;
+}
+
+.input-text-error{
+    @apply h-10 border border-gray-3 outline-none rounded-lg px-4 py-2 
+    placeholder-gray-4 !important;
+}
+
+.input-text:focus {
+    @apply ring-blue-4;
+}

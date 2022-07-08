@@ -1,0 +1,18 @@
+.footer .copy,
+.footer-links a {
+  color: #555658 !important;
+
+  outline: none;
+}
+.footer-links a:hover {
+  color: #295da1 !important;
+}
+.footer-right {
+  text-align: right;
+}
+.footer-center {
+  text-align: center;
+}
+.footer-fixed {
+  @apply fixed bottom-0 right-6;
+}

@@ -1,0 +1,6 @@
+.cancelOptions .MuiCheckbox-root path {
+    @apply text-gray-4;
+}
+.cancelOptions .Mui-checked path {
+    @apply text-blue-4;
+}

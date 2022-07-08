@@ -1,0 +1,37 @@
+.privacy .footer-list li{
+    list-style: lower-roman;
+    line-height: 1.6em;
+}
+.privacy .footer-list2 li {
+    list-style: decimal;
+    line-height: 1.6em;
+}
+
+.privacy .footer-list2 li ul li, .privacy .footer-list-disc li {
+    list-style: disc;
+    line-height: 1.6em;
+}
+.privacy .footer-list2 li ol li {
+    list-style: lower-alpha;
+}
+.privacy .footer-list-disc ol li {
+    list-style: circle;
+    line-height: 1.6em;
+}
+
+.privacy .footerlist-alpha li {
+    list-style: lower-alpha;
+    line-height: 1.6em;
+}
+
+.privacy .footer-decimal-alpha {
+    list-style: decimal;
+}
+
+.privacy .footer-decimal-alpha ol li {
+    list-style: lower-alpha;
+}
+
+.privacy a {
+    color: #295da1;
+}

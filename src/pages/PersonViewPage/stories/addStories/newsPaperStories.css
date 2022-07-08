@@ -1,0 +1,56 @@
+@media(min-width: 769px){
+    .newspaper-story .story-footer .btn-default span {
+        @apply text-blue-5;
+    }
+    .newspaper-story .story-box {
+        @apply flex-row;
+    }
+}
+@media(max-width:768px){
+    .newspaper-story .buton-wrap-top {
+        @apply mt-0 shadow-md;
+    }
+    .newspaper-story {
+        @apply bg-white;
+    }
+    .newspaper-story .story-option {
+        @apply absolute top-5 right-4 z-50;
+    }
+    .newspaper-story .story-box {
+        @apply flex-col max-w-full shadow-none;
+    }
+    .newspaper-story .story-body {
+        @apply shadow-none px-0 pt-6 pb-0 w-full mx-auto;
+    }
+      .newspaper-story .add-person-box, .newspaper-story .add-category-box {
+            @apply w-full;
+        }
+    .add-person-box, .add-category-box {
+        @apply sm:mt-8;
+    }
+    .newspaper-story .add-person-box .story-body, .newspaper-story .add-category-box .story-body {
+        max-width: 500px;
+        @apply sm:p-12.5 pt-10;
+    }
+    .newspaper-story .add-person-box .story-footer, .newspaper-story .add-category-box .story-footer {
+        @apply -top-3;
+    }
+    .newspaper-story .story-inner {
+        max-width: 375px;
+        @apply flex-col mx-auto;
+    }
+    .newspaper-story .main-stroy-img {
+        @apply w-full h-auto m-0;
+    }
+    .newspaper-story .main-wrapper {
+        @apply px-0 md:pt-0 pt-2 !important;
+    }
+    .newspaper-story .story-title, .newspaper-story .location-field {
+        @apply mb-3;
+    }
+}
+@media(max-width: 425px) {
+    .newspaper-story .story-inner {
+        @apply max-w-full;
+    }
+}

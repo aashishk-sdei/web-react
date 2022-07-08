@@ -1,0 +1,90 @@
+[
+  {
+    "label": "Name",
+    "data": [{ "key": "full_name_display", "type": "text", "relation": "Self" }]
+  },
+  {
+    "label": "Birth Date",
+    "data": [{ "key": "date", "type": "Date", "event": "Birth", "relation": "Self" }]
+  },
+  {
+    "label": "Death Date",
+    "data": [{ "key": "date", "type": "Date", "event": "Death", "relation": "Self" }]
+  },
+  {
+    "label": "Gender",
+    "data": [{ "key": "gender", "type": "text", "relation": "Self" }]
+  },
+  {
+    "label": "Residence",
+    "data": [{ "key": "place", "type": "GUID", "event": "Residence", "relation": "Self" }]
+  },
+  {
+    "label": "Previous Residence",
+    "data": [{ "key": "place", "type": "GUID", "event": "Residence_previous", "relation": "Self" }]
+  },
+  {
+    "label": "Arrival Date",
+    "data": [{ "key": "date", "type": "Date", "event": "Immigration_arrival", "relation": "Self" }]
+  },
+  {
+    "label": "Birthplace",
+    "data": [{ "key": "place", "type": "GUID", "event": "Birth", "relation": "Self" }]
+  },
+  {
+    "label": "Age",
+    "data": [{ "key": "age", "type": "text", "relation": "Self" }]
+  },
+  {
+    "label": "Place of Departure",
+    "data": [{ "key": "place", "type": "GUID", "event": "Immigration_departure", "relation": "Self" }]
+  },
+  {
+    "label": "Immigration Destination",
+    "data": [{ "key": "place", "type": "GUID", "event": "Immigration_destination", "relation": "Self" }]
+  },
+  {
+    "label": "Marriage Date",
+    "data": [{ "key": "date", "type": "Date", "event": "Marriage", "relation": "Self" }]
+  },
+  {
+    "label": "Marriage Place",
+    "data": [{ "key": "place", "type": "GUID", "event": "Marriage", "relation": "Self" }]
+  },
+  {
+    "label": "Level of Education",
+    "data": [{ "key": "level_completed", "type": "text", "relation": "Self" }]
+  },
+  {
+    "label": "Occupation",
+    "data": [{ "key": "occupation", "type": "text", "relation": "Self" }]
+  },
+  {
+    "label": "Race/Nationality",
+    "data": [{ "key": "race", "type": "text", "relation": "Self" }]
+  },
+  {
+    "label": "Marital Status",
+    "data": [{ "key": "status", "type": "text", "relation": "Self" }]
+  },
+  {
+    "label": "Spouse's Name",
+    "data": [{ "key": "full_name_display", "type": "text", "relation": "Spouse" }]
+  },
+  {
+    "label": "Spouse's Gender",
+    "data": [{ "key": "gender", "type": "text", "relation": "Spouse" }]
+  },
+  {
+    "label": "Allegiance",
+    "data": [{ "key": "allegiance", "type": "text", "relation": "Self" }]
+  },
+  {
+    "label": "Unit",
+    "data": [{ "key": "unit", "type": "text", "relation": "Self" }]
+  },
+  {
+    "label": "Military Service Location",
+    "data": [{ "key": "tour_place", "type": "GUID", "event": "Military", "relation": "Self" }]
+  }
+]

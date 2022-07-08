@@ -1,0 +1,95 @@
+/* Common */
+.btn {
+  @apply font-medium py-1.5 px-4 rounded-lg border border-transparent focus:outline-blue  flex items-center;
+}
+
+/* Button Type */
+.btn-default {
+  @apply bg-gray-1 text-gray-7 hover:bg-gray-2;
+}
+
+.btn-default-dark {
+  @apply bg-gray-2 text-blue-4 hover:bg-gray-3;
+}
+
+.btn-primary-inverted {
+  @apply bg-gray-1 text-blue-4 hover:bg-gray-2;
+}
+
+.btn-primary {
+  @apply bg-blue-4 text-white hover:bg-blue-5;
+}
+
+.btn-secondary {
+  @apply bg-gray-7 text-white hover:bg-black;
+}
+
+.btn-red {
+  @apply bg-redShades-4 border-transparent text-white hover:bg-redShades-5;
+}
+.btn-red-dark {
+  @apply bg-redShades-6 border-transparent text-white hover:bg-redShades-7;
+}
+
+.btn-danger {
+  @apply bg-maroon-5 text-white hover:bg-maroon-6;
+}
+.btn-success {
+  @apply bg-green-4 text-white hover:bg-green-6;
+}
+.btn-skyblue {
+  @apply bg-skyblue-6 border-skyblue-6 text-white hover:bg-skyblue-7 hover:border-skyblue-7;
+}
+.btn-white {
+  @apply bg-white border-white text-redShades-7 hover:bg-gray-2 hover:border-gray-2 hover:text-redShades-7;
+}
+.link-white {
+  @apply px-3 bg-transparent border-transparent text-white hover:bg-transparent hover:border-transparent hover:text-gray-2;
+}
+.link-white .icon-large {
+  @apply mt-auto mb-auto;
+}
+.link-white .icon-large svg {
+  @apply w-4;
+}
+.link-white .swapper {
+  @apply flex-row-reverse;
+}
+.link-white .ml-swapper {
+  @apply ml-0 mr-2;
+}
+.link-danger{
+  @apply bg-gray-1 text-maroon-5 hover:bg-gray-2 hover:text-maroon-6;
+}
+.btn-maroon {
+  @apply bg-maroon-4;
+}
+
+.btn-stepper {
+  @apply bg-gray-1 border border-gray-3 py-1.5 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-5 flex items-center text-gray-4 hover:bg-blue-1 justify-center hover:text-blue-4 h-20 !important w-80;
+}
+
+/* Button Size */
+.btn-small {
+  @apply text-xs h-6;
+}
+
+.btn-medium {
+  @apply text-sm h-8;
+}
+
+.btn-large {
+  @apply text-base h-10;
+}
+.btn-xlarge {
+  @apply text-2xl h-16 md:h-21.5 px-6;
+}
+
+/* Button Disable */
+.btn-disable {
+  @apply opacity-50 cursor-default;
+  filter: opacity(0.8) !important;
+}
+.link-gray{
+  @apply text-gray-7 cursor-pointer no-underline hover:text-blue-4 hover:underline;
+}

@@ -1,0 +1,28 @@
+.search-bar-top .MuiInputBase-root {
+    @apply bg-gray-1;
+}
+
+.search-bar-top .MuiOutlinedInput-input {
+    font-family: "Atlas Grotesk Web Medium", sans-serif !important;
+    padding-left: 50px !important;
+}
+
+.search-bar-top ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    @apply text-gray-6;
+    opacity: 1;
+}
+
+.search-bar-top :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    @apply text-gray-6;
+}
+
+.search-bar-top ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    @apply text-gray-6;
+}
+
+.search-bar-top .Mui-focused svg path {
+    stroke: #295da1 !important;
+}

@@ -1,0 +1,255 @@
+.all-stories-page {
+  @apply relative z-10;
+}
+
+/* search page */
+
+/* Stories tab left panel */
+/* ===================================== */
+
+.left-content-loader span {
+  @apply rounded-none;
+}
+
+.left-content-loader .MuiSkeleton-root + .MuiSkeleton-root {
+  @apply ml-4;
+}
+
+.tw-stories-left-panel {
+  max-width: 12rem;
+  min-width: 12rem;
+}
+
+.tw-stories-left-panel .add-story-top button {
+  @apply w-full;
+}
+
+.tw-stories-left-panel .add-story-top button div {
+  @apply my-0 mx-auto;
+}
+
+.tw-list-item {
+  @apply p-3 leading-6 shadow-none !important;
+}
+
+.tw-list-item .icon {
+  @apply min-w-5;
+}
+
+.clue-item .tw-list-item.is-active svg path {
+  stroke: none !important;
+}
+
+.tw-list-item span.default-color {
+  @apply text-gray-6;
+}
+
+.device-cat-dd .active-cat-item {
+  @apply border border-gray-3 bg-gray-1 rounded-lg px-3 h-10 !important;
+}
+
+.device-cat-dd .active-cat-item span.default-color {
+  @apply text-gray-6;
+}
+
+.dd-open .device-cat-dd .active-cat-item {
+  @apply border border-blue-4 bg-blue-1;
+}
+
+.dd-open .device-cat-dd .active-cat-item span.default-color {
+  @apply text-blue-5;
+}
+
+.dd-open .device-cat-dd .active-cat-item svg path {
+  stroke: #295da1;
+}
+/* Right panel */
+/* ================================ */
+.clue-content {
+  @apply rounded-lg border border-solid border-gray-2 py-4 px-6 my-4 mx-0;
+  box-shadow: 0px 1px 2px rgb(0 0 0 / 10%);
+}
+
+.clue-content .modal-body-pr-17, .tw-modal-open.pr-17{
+  @apply pr-0 !important
+}
+.clue-content img {
+  @apply w-10 h-10 rounded;
+}
+
+.clue-content svg {
+  @apply mt-1.5 mr-2;
+}
+
+.clue-content button {
+  @apply py-1.5 px-3;
+}
+
+.clue-footer button {
+  @apply py-2 px-8;
+}
+
+.clue-table {
+  @apply py-5 px-0 border-t border-b border-solid border-gray-2;
+}
+
+.clue-tag {
+  @apply pt-0.5 pb-px px-0.5 tracking-wider text-xxxs;
+}
+
+.clue-separator {
+  @apply border-t border-solid border-gray-2 pb-3 mt-5;
+}
+
+.clue-person .all-stories-container {
+  @apply pt-0;
+}
+
+.buton-wrap-top {
+  @apply fixed lg:absolute left-0 lg:left-4 top-0 lg:top-8 z-50 bg-white lg:bg-transparent w-full lg:w-auto flex justify-between px-4 py-3 lg:p-0 shadow-md md:shadow-none;
+}
+
+.clue-view {
+  @apply border-0 m-0 shadow-none;
+}
+
+
+.clue-overlay {
+  @apply absolute inset-0 z-10 h-full w-full cursor-pointer bg-black opacity-50;
+}
+
+.clue-overlay h3 {
+  @apply text-white absolute top-1/2 left-1/2 transform  -translate-y-2/4 -translate-x-2/4;
+  z-index: 5000 !important;
+}
+
+/* Media Queries */
+/* ====================================== */
+
+@media (max-width: 767px) {
+  .buton-wrap-top {
+    @apply h-16;
+  }
+  .page-wrap-bg-dk.clue-page-wrap {
+    @apply bg-white pb-2;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .buton-wrap-top {
+    @apply top-4 left-6;
+  }
+}
+
+@media (max-width: 1023px) {
+  .buton-wrap-top {
+    @apply items-center z-500;
+  }
+  .buton-wrap-top button.bg-gray-1 {
+    @apply w-8 h-8;
+  }
+}
+
+@media (min-width: 512px) {
+  .loader-grid {
+    @apply w-2/4;
+  }
+
+  .loader-grid.loader-grid-4 {
+    @apply w-1/3;
+  }
+}
+
+@media (min-width: 761px) {
+  .tw-stories-right-panel {
+    @apply flex;
+  }
+
+  .stories-middle-content {
+    @apply pr-11;
+  }
+
+  /* All stories seprate page */
+  /* ===================================== */
+
+  .view-all-stories-page {
+    @apply pr-0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .tw-stories-left-panel {
+    @apply pt-3;
+  }
+
+  .clue-item .tw-list-item.is-active {
+    @apply rounded-full bg-blue-1 !important;
+  }
+
+  .clue-item .tw-list-item.is-active span {
+    @apply bg-blue-1;
+  }
+  /* All stories seprate page */
+  /* ===================================== */
+
+  .view-all-stories-page {
+    @apply max-w-full pl-20;
+  }
+}
+
+
+@media (max-width: 1023px) {
+  .tw-stories-left-panel {
+    @apply max-w-full;
+  }
+
+  .tw-list-item.is-active .danger-color {
+    @apply text-gray-6;
+  }
+}
+
+@media (max-width: 624px) {
+  .clue-table td span {
+    @apply break-all;
+  }
+  .para-content1 {
+    @apply p-4;
+  }
+
+  .clue-table td:nth-child(2) {
+    @apply border-r border-solid border-gray-3;
+  }
+
+  .clue-content {
+    @apply p-0;
+  }
+
+  .clue-header {
+    @apply px-4 pt-4 pb-0;
+  }
+
+  .clue-content .para-content {
+    @apply py-0 pr-0 pl-4;
+  }
+
+  .clue-table th,
+  .clue-table tr,
+  .clue-table td {
+    @apply py-1.5 px-4;
+  }
+
+  .clue-table {
+    @apply border-b-0 mb-0 px-0 py-1;
+  }
+
+  .clue-border {
+    @apply border-r border-solid border-gray-3;
+  }
+
+  .view-btn {
+    @apply py-2.5 px-4 !important;
+  }
+
+  .option-btn {
+    @apply py-2.5 px-8 !important;
+  }
+}

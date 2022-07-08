@@ -1,0 +1,12 @@
+.prerson-profile img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #fff;
+}
+
+.prerson-profile h3 {
+  font-size: 32px;
+}
+.prerson-profile button {
+  padding: 8px 20px;
+}

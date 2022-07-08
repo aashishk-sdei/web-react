@@ -1,0 +1,31 @@
+.white-color {
+    @apply text-white;
+}
+
+.white-black {
+    @apply text-black;
+}
+
+.default-color {
+    @apply text-gray-5;
+}
+
+.primary-color {
+    @apply text-blue-4;
+}
+
+.secondary-color {
+    @apply text-gray-7;
+}
+
+.danger-color {
+    @apply text-maroon-4;
+}
+
+.brand-color {
+    @apply text-red;
+}
+
+.link-style {
+    @apply text-blue-4 hover:text-blue-5 hover:underline mb-2 cursor-pointer; 
+}
